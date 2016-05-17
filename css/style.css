@@ -1,3 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: pink;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.totalcard {
+    margin: 0 auto;
+}
+
+.card-head {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 20%;
+    border-left: 5px black solid;
+    margin: 0 auto;
+}
+
+h1 {
+    
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 10px;text-decoration: underline;
+}
+
+.card p {
+    margin-left: 20px;
+    font-size: 1em;
 }
