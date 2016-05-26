@@ -2,101 +2,245 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     margin: 0 auto;
-    padding: 0;
     width: 100%;
-    font-family: sans-serif;
+    font-family: Isocpeur, sans-serif; font-style: normal;
+    color: white;
+}
+
+body div {
+    margin: 0;
+    padding:0;
 }
 
 .container {
-    margin-top: 250px;
+    width: 100%;
+    min-height: 700px;
 }
 
-.totalcard {
+.logoheader {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoheader a {
+     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     margin: 0 auto;
+}
+
+.content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: 1px solid black;
+}
+
+.gifimage {
     width: 35%;
 }
 
-.card-head {
-    position: relative;
-    animation-name: headAnimation;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode: both;
-    background-color:black;
-}
-
-.card {
-    border-left: 5px black solid;
-    position: relative;
-    animation-name: headAnimation;
-    animation-duration: 4s;
-    animation-delay: 3s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode: both;
-}
-
 h1 {
-    
-    font-size: 1.2em;
-    font-weight: 100;
-    letter-spacing: 10px;
-    color:yellow;
-    position: relative;
-    animation-name: headAnimation;
-    animation-duration: 0.2s;
-    animation-delay: 7s;
-    
-    animation-iteration-count: 100;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: step-start;
-    
-    animation-fill-mode: both;
-}
-
-.card p {
-    margin-left: 10px;
-    margin-right: 10px;
+    color: black;
     font-size: 1em;
 }
 
-/*Position animation */
-@keyframes headAnimation {
-    0% {
-        right: 0px;
-        left: 400px;
-        opacity: 0;
+.sign {
+    width: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+}
+
+a h2:hover {
+    color: #e00201;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.table {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    background-color: white;
+    width: 138px;
+    height: 138px;
+}
+
+
+.red {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+}
+
+.hand {
+    width: 100%;
+}
+
+.paola {
+    width: 100%;
+}
+
+.snail {
+    width: 100%;
+}
+
+.subjects {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.boxes {
+    width: 300px;
+    height: 300px;
+     -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 1s;
+}
+
+.sub {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.boxes:hover {
+    width: 400px;
+    height: 400px;
+}
+
+h3 {
+    color: black;
+    font-size: 1.5em;
+}
+
+.bio {
+    width: 80%;
+}
+
+.contacts {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5em
+}
+    
+    .folio .menu {
+        display: none;
+    }
+
+@media (max-width: 1500px) {
+    
+    .container {
+        width: 100%;
+        min-height: 100px;
     }
     
-    50% {
-        right: 0px;
-        left: 200px;
-        opacity: 0;
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     
-    100% {
-        right: 0px;
-        left: 0px;
+    .table {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .one {
+        order: -4;
+    }
+    
+    .two {
+        order: -3;
+    }
+    
+    
+    .blue {
+        order: -2;
+    }
+    
+    .three {
+        order: -1;
+    }
+    
+    .yellow {
+        display: none;
+    }
+    
+    .red {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        line-height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .folio .one {
+        display: none;
+    }
+    
+    .folio .blue {
+        display: none;
+    }
+    
+    .folio .three {
+        display: none;
+    }
+    
+    .folio .menu {
+        display: none;
+    }
+    
+    .gifimage {
+        display: none;
     }
 }
