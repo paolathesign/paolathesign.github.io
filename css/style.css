@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Isocpeur, sans-serif; font-style: normal;
+    color: white;
+}
+
+body div {
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+}
+
+.logoheader {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoheader a {
+     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.gifimage {
+    width: 35%;
+}
+
+h1 {
+    color: black;
+    font-size: 1em;
+}
+
+.sign {
+    width: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+}
+
+a h2:hover {
+    color: #e00201;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.table {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    background-color: white;
+    width: 138px;
+    height: 138px;
+}
+
+
+.red {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+}
+
+.hand {
+    width: 100%;
+}
+
+.paola {
+    width: 100%;
+}
+
+.snail {
+    width: 100%;
+}
+
+.subjects {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.boxes {
+    width: 300px;
+    height: 300px;
+}
+
+
+.sub {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+h3 {
+    color: black;
+    font-size: 1.5em;
+}
+
+.bio {
+    width: 80%;
+}
+
+.contacts {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+    
+    .folio .menu {
+        display: none;
+    }
+
+p {
+    font-size: 1.2em;
+    color: black;
+}
+
+.textcontent {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.onright {
+    margin-left: 110px;
+}
+
+.under {
+    color: black;
+    text-decoration: underline;
+    font-weight:600;
+}
+
+.goback {
+    margin-bottom: 20px;
+}
+
+.invio {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.imginvio {
+    width: 100px;
+}
+
+.slide {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    
+    .container {
+        width: 100%;
+        min-height: 100px;
+    }
+    
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .table {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .one {
+        order: -4;
+    }
+    
+    .two {
+        order: -3;
+    }
+    
+    
+    .blue {
+        order: -2;
+    }
+    
+    .three {
+        order: -1;
+    }
+    
+    .yellow {
+        display: none;
+    }
+    
+    .red {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        line-height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .folio .one {
+        display: none;
+    }
+    
+    .folio .blue {
+        display: none;
+    }
+    
+    .folio .three {
+        display: none;
+    }
+    
+    .folio .menu {
+        display: none;
+    }
+    
+    .gifimage {
+        display: none;
+    }
+    
+    .textcontent {
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .onright {
+        margin-left: 110px;
+    }
+}
