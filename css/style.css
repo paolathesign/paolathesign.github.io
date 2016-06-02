@@ -170,21 +170,24 @@ p {
 .textcontent {
     width: 500px;
     margin-top: 20px;
+    overflow: auto;
+    height: 300px;
 }
 
 .onright {
     margin-left: 110px;
+    color: black;
 }
 
 .under {
     color: black;
-    text-decoration: underline;
     font-weight:600;
 }
 
 .goback {
-    margin-bottom: 20px;
+    color: black;
 }
+
 
 .invio {
     margin-top: 20px;
@@ -201,6 +204,23 @@ p {
 
 .slide {
     width: 100%;
+}
+
+.spacetext {
+    margin-bottom: 30px;
+}
+
+.fixed {
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+}
+
+.ciao {
+    margin-top: 30px;
 }
 
 @media (max-width: 500px) {
@@ -281,12 +301,22 @@ p {
     }
     
     .textcontent {
-        width: 300px;
+        width: 250px;
         margin-top: 20px;
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     .onright {
         margin-left: 110px;
+    }
+    
+    .fixed {
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    background-color: white;
     }
 }
