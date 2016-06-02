@@ -208,6 +208,8 @@ p {
 
 .spacetext {
     margin-bottom: 30px;
+    color: white;
+    background-color: black;
 }
 
 .fixed {
@@ -222,6 +224,7 @@ p {
 .ciao {
     margin-top: 30px;
 }
+
 
 @media (max-width: 500px) {
     
@@ -306,6 +309,7 @@ p {
         margin-left: 20px;
         margin-right: 20px;
     }
+    
 
     .onright {
         margin-left: 110px;
