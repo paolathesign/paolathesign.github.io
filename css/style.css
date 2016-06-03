@@ -243,6 +243,11 @@ video {
     color: #de0403;
 }
 
+.banner {
+    width: 500px;
+    margin-top: -100px;
+}
+
 @media (max-width: 500px) {
     
     .container {
@@ -360,4 +365,9 @@ video {
         width: 250px;
         text-align: center;
     }
+    
+    .banner {
+    width: 250px;
+    margin-top: -70px;
+}
 }
