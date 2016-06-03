@@ -211,7 +211,7 @@ p {
     background-color: white;
 }
 
-.ciao {
+.lowerpart {
     margin-top: 30px;
 }
 
@@ -228,6 +228,18 @@ video {
 
 .go a {
     color: #de0403; 
+}
+
+.button {
+    margin-top: 20px;
+    border: 2px solid #de0403;
+    border-style:dotted; 
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.button a {
+    color: #de0403;
 }
 
 @media (max-width: 500px) {
