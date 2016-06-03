@@ -188,16 +188,6 @@ p {
     color: black;
 }
 
-
-.invio {
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
 .imginvio {
     width: 100px;
 }
@@ -225,6 +215,20 @@ p {
     margin-top: 30px;
 }
 
+video {
+    margin-top: 20px;
+}
+
+.go {
+    width: 500px;
+    margin-top: 20px;
+    border-bottom: 2px solid #de0403;
+    border-style: dotted;
+}
+
+.go a {
+    color: #de0403; 
+}
 
 @media (max-width: 500px) {
     
@@ -316,11 +320,26 @@ p {
     }
     
     .fixed {
-    width: 250px;
-    border: 1px solid black;
-    text-align: center;
-    height: 30px;
-    position: absolute;
-    background-color: white;
+        width: 250px;
+        border: 1px solid black;
+        text-align: center;
+        height: 30px;
+        position: absolute;
+        background-color: white;
+    }
+    
+    .go {
+        width: 250px;
+        margin-top: 20px;
+        border-bottom: 2px solid #de0403;
+        border-style: dotted;
+    }
+
+    .go a {
+        color: #de0403; 
+    }
+    
+    video {
+        width: 250px;
     }
 }
