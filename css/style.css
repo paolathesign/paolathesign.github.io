@@ -217,6 +217,7 @@ p {
 
 video {
     margin-top: 20px;
+    border: 1px solid black;
 }
 
 .go {
@@ -353,5 +354,10 @@ video {
     
     video {
         width: 250px;
+    }
+    
+    .button {
+        width: 250px;
+        text-align: center;
     }
 }
