@@ -675,7 +675,7 @@ li{
         width: 80%;
         position: absolute;
         z-index: 2;
-        margin-left: 10%;;
+        margin-left: 10%;
     }
 
     .rondini {
@@ -744,6 +744,22 @@ li{
         animation-name: xAnimation;
         animation-duration: 5s;
         animation-delay: 40s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .batman {
+        width: 100%;
+        z-index: 2;
+        animation-name: batmAnimation;
+        animation-duration: 5s;
+        animation-delay: 45s;
 
         animation-iteration-count: 1;
 
@@ -839,16 +855,42 @@ li{
     @keyframes xAnimation {
         0% {
             font-size: 0em;
-            top: 0px;
+            top: 20px;
         }
 
         50% {
-            top: 100px;
+            top: 20px;
         }
 
         100% {
             font-size: 1.2em;
-            top: 200px;
+            top: 20px;
+        }
+    }
+    
+     @keyframes batmAnimation {
+        0% {
+            opacity: 0;
+        }
+         
+        25% {
+            opacity: 0.5;
+        }
+         
+        27% {
+            opacity: 0;
+        }
+         
+        29% {
+            opacity: 0.5;
+        }
+         
+        30% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 
