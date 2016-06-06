@@ -349,7 +349,7 @@ li{
     animation-fill-mode: both;
 }
 
-.one {
+.first {
     position: relative;
     animation-name: oneAnimation;
     animation-duration: 5s;
@@ -364,7 +364,7 @@ li{
     animation-fill-mode: both;
 }
 
-.two {
+.second {
     position: relative;
     animation-name: twoAnimation;
     animation-duration: 5s;
@@ -693,7 +693,7 @@ li{
         animation-fill-mode: both;
     }
     
-    .one {
+    .first {
         position: relative;
         animation-name: oneAnimation;
         animation-duration: 5s;
@@ -708,7 +708,7 @@ li{
         animation-fill-mode:both;
     }
 
-    .two {
+    .second {
         position: relative;
         animation-name: twoAnimation;
         animation-duration: 5s;
@@ -737,6 +737,22 @@ li{
 
         animation-fill-mode: both;
     }
+    
+    .x {
+        text-align: center;
+        position: relative;
+        animation-name: xAnimation;
+        animation-duration: 5s;
+        animation-delay: 40s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
 
 
     /*Position animation */
@@ -756,7 +772,7 @@ li{
         100% {
             width: 0%;
             top: 50px;
-            left: 80px;
+            left: 200px;
         }
     }
 
@@ -770,13 +786,13 @@ li{
         50% {
             width: 5%;
             top: 50px;
-            left: 80px;
+            left: 50px;
         }
 
         100% {
             width: 0%;
             top: 50px;
-            left: 200px;
+            left: 100px;
         }
     }
 
@@ -790,7 +806,7 @@ li{
         50% {
             width: 5%;
             top: 50px;
-            left: 80px;
+            left: 100px;
         }
 
         100% {
@@ -817,6 +833,22 @@ li{
             width: 0%;
             top: 70px;
             left: 250px;
+        }
+    }
+    
+    @keyframes xAnimation {
+        0% {
+            font-size: 0em;
+            top: 0px;
+        }
+
+        50% {
+            top: 100px;
+        }
+
+        100% {
+            font-size: 1.2em;
+            top: 200px;
         }
     }
 
