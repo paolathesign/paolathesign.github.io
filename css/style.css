@@ -145,7 +145,7 @@ h3 {
 }
 
 .bio {
-    width: 80%;
+    width: 100%;
 }
 
 .contacts {
@@ -306,6 +306,18 @@ li{
     margin-left: 30px;
 }
 
+@media (max-width: 1024px) {
+    
+     .deskversion {
+        width: 700px;
+    }
+    
+    .bio {
+        width: 100%;
+    }
+    
+}
+
 @media (max-width: 500px) {
     
     .container {
@@ -416,6 +428,10 @@ li{
     }
     
     video {
+        width: 250px;
+    }
+    
+    .deskversion {
         width: 250px;
     }
     
