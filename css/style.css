@@ -324,6 +324,177 @@ li{
     width: 100%;
 }
 
+/* Animation */
+
+.line {
+    margin-top: 30px;
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;;
+}
+
+.rondini {
+    position: relative;
+    animation-name: rondiniAnimation;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    
+    animation-iteration-count: 1;
+    
+    animation-direction: normal;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: both;
+}
+
+.one {
+    position: relative;
+    animation-name: oneAnimation;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    
+    animation-iteration-count: 1;
+    
+    animation-direction: normal;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: both;
+}
+
+.two {
+    position: relative;
+    animation-name: twoAnimation;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    
+    animation-iteration-count: 1;
+    
+    animation-direction: normal;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode:both;
+}
+
+.baloon {
+    position: relative;
+    animation-name: baloonAnimation;
+    animation-duration: 30s;
+    animation-delay: 14s;
+    
+    animation-iteration-count: 1;
+    
+    animation-direction: normal;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: both;
+}
+
+
+/*Position animation */
+@keyframes rondiniAnimation {
+    0% {
+        width: 0%;
+        top: 0px;
+        left: 150px;
+    }
+    
+    50% {
+        width: 20%;
+        top: 60px;
+        left: 400px;
+    }
+    
+    100% {
+        width: 0%;
+        top: 0px;
+        left: 800px;
+    }
+}
+
+@keyframes oneAnimation {
+    0% {
+        width: 0%;
+        top: 50px;
+        left: 150px;
+    }
+
+    50% {
+        width: 5%;
+        top: 400px;
+        left: 300px;
+    }
+    
+    100% {
+        width: 0%;
+        top: 0px;
+        left: 700px;
+    }
+}
+
+@keyframes twoAnimation {
+    0% {
+        width: 0%;
+        top: 50px;
+        left: 150px;
+    }
+
+    50% {
+        width: 5%;
+        top: 400px;
+        left: 300px;
+    }
+    
+    100% {
+        width: 0%;
+        top: 400px;
+        left: 700px;
+    }
+}
+
+@keyframes baloonAnimation {
+    0% {
+        width: 0%;
+        top: 300px;
+        left: 50px;
+    }
+
+    25% {
+        width: 10%;
+        top: 300px;
+        left: 200px;
+    }
+    
+    50% {
+        width: 20%;
+        top: 300px;
+        left: 200px;
+    }
+    
+    70% {
+        width: 10%;
+        top: 300px;
+        left: 200px;
+    }
+    
+    90% {
+        width: 10%;
+        top: 300px;
+        left: 600px;
+    }
+    
+    100% {
+        width: 0%;
+        top: 300px;
+        left: 800px;
+    }
+}
+
+
 @media (max-width: 1024px) {
     
      .deskversion {
@@ -496,4 +667,157 @@ li{
     .astroimg {
         width: 100%;
     }
+    
+    /* Animation */
+
+    .line {
+        margin-top: 30px;
+        width: 80%;
+        position: absolute;
+        z-index: 2;
+        margin-left: 10%;;
+    }
+
+    .rondini {
+        position: relative;
+        animation-name: rondiniAnimation;
+        animation-duration: 3s;
+        animation-delay: 3s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .one {
+        position: relative;
+        animation-name: oneAnimation;
+        animation-duration: 5s;
+        animation-delay: 7s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .two {
+        position: relative;
+        animation-name: twoAnimation;
+        animation-duration: 5s;
+        animation-delay: 10s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .baloon {
+        position: relative;
+        animation-name: baloonAnimation;
+        animation-duration: 30s;
+        animation-delay: 14s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+
+
+    /*Position animation */
+    @keyframes rondiniAnimation {
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 70%;
+            top: 50px;
+            left: 50px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 80px;
+        }
+    }
+
+   @keyframes oneAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 80px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 200px;
+        }
+    }
+
+    @keyframes twoAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 80px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 200px;
+        }
+    }
+
+    @keyframes baloonAnimation {
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 50%;
+            top: 50px;
+            left: 50px;
+        }
+
+        100% {
+            width: 0%;
+            top: 70px;
+            left: 250px;
+        }
+    }
+
 }
