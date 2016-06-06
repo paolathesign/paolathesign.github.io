@@ -56,7 +56,7 @@ body div {
 }
 
 .gifimage {
-    width: 35%;
+    width: 500px;
 }
 
 h1 {
@@ -232,6 +232,7 @@ video {
 }
 
 .button {
+    margin-bottom: 20px;
     margin-top: 20px;
     border: 2px solid #de0403;
     border-style:dotted; 
@@ -239,7 +240,7 @@ video {
     padding: 10px;
 }
 
-.button a {
+a .button {
     color: #de0403;
 }
 
@@ -284,6 +285,25 @@ video {
     width: 0px;
     height: 0px;
     visibility: hidden;
+}
+
+.servicetext {
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    color: black;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: circle;
+    color: black;
+    margin-left: 30px;
 }
 
 @media (max-width: 500px) {
