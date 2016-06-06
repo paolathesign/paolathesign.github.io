@@ -394,6 +394,37 @@ li{
     animation-fill-mode: both;
 }
 
+.x {
+        text-align: center;
+        position: relative;
+        animation-name: xAnimation;
+        animation-duration: 5s;
+        animation-delay: 40s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .batman {
+        width: 100%;
+        animation-name: batmAnimation;
+        animation-duration: 5s;
+        animation-delay: 45s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+
 
 /*Position animation */
 @keyframes rondiniAnimation {
@@ -457,42 +488,67 @@ li{
 }
 
 @keyframes baloonAnimation {
-    0% {
-        width: 0%;
-        top: 300px;
-        left: 50px;
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 50%;
+            top: 100px;
+            left: 100px;
+        }
+
+        100% {
+            width: 0%;
+            top: 100px;
+            left: 450px;
+        }
+}
+    
+    @keyframes xAnimation {
+        0% {
+            font-size: 0em;
+            top: 20px;
+        }
+
+        50% {
+            top: 20px;
+        }
+
+        100% {
+            font-size: 1.2em;
+            top: 20px;
+        }
+    }
+    
+     @keyframes batmAnimation {
+        0% {
+            opacity: 0;
+        }
+         
+        25% {
+            opacity: 0.5;
+        }
+         
+        27% {
+            opacity: 0;
+        }
+         
+        29% {
+            opacity: 0.5;
+        }
+         
+        30% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 
-    25% {
-        width: 10%;
-        top: 300px;
-        left: 200px;
-    }
-    
-    50% {
-        width: 20%;
-        top: 300px;
-        left: 200px;
-    }
-    
-    70% {
-        width: 10%;
-        top: 300px;
-        left: 200px;
-    }
-    
-    90% {
-        width: 10%;
-        top: 300px;
-        left: 600px;
-    }
-    
-    100% {
-        width: 0%;
-        top: 300px;
-        left: 800px;
-    }
-}
 
 
 @media (max-width: 1024px) {
@@ -756,7 +812,6 @@ li{
     
     .batman {
         width: 100%;
-        z-index: 2;
         animation-name: batmAnimation;
         animation-duration: 5s;
         animation-delay: 45s;
