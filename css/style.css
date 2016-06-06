@@ -255,12 +255,26 @@ a .button {
 }
 
 .showmainpage {
-    width: 500px;
+    width: 700px;
     margin-top: 20px;
     overflow: auto;
     height: 500px;
-    display: inline-block;
 }
+
+.astrocontent {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 700px;
+    margin-top: 20px;
+    overflow: auto;
+    height: 500px;
+}
+
+.astro {
+    margin: 0;
+}
+
 
 .textversion {
     background-color: black;
@@ -466,5 +480,12 @@ li{
     
     .bio {
         display: none;
+    }
+    
+    .astrocontent {
+        width: 250px;
+        margin-top: 20px;
+        overflow: auto;
+        height: 160px;
     }
 }
