@@ -326,95 +326,80 @@ li{
 
 /* Animation */
 
-.line {
-    margin-top: 30px;
-    width: 80%;
-    position: absolute;
-    z-index: 2;
-    margin-left: 10%;;
-}
+    .line {
+        margin-top: 30px;
+        width: 80%;
+        position: absolute;
+        z-index: 2;
+        margin-left: 10%;
+    }
 
-.rondini {
-    position: relative;
-    animation-name: rondiniAnimation;
-    animation-duration: 2s;
-    animation-delay: 3s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode: both;
-}
+    .rondini {
+        position: relative;
+        animation-name: rondiniAnimation;
+        animation-duration: 3s;
+        animation-delay: 1s;
 
-.first {
-    position: relative;
-    animation-name: oneAnimation;
-    animation-duration: 5s;
-    animation-delay: 7s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode: both;
-}
+        animation-iteration-count: 1;
 
-.second {
-    position: relative;
-    animation-name: twoAnimation;
-    animation-duration: 5s;
-    animation-delay: 10s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode:both;
-}
+        animation-direction: normal;
 
-.baloon {
-    position: relative;
-    animation-name: baloonAnimation;
-    animation-duration: 30s;
-    animation-delay: 14s;
-    
-    animation-iteration-count: 1;
-    
-    animation-direction: normal;
-    
-    animation-timing-function: linear;
-    
-    animation-fill-mode: both;
-}
+        animation-timing-function: linear;
 
-.x {
+        animation-fill-mode: both;
+    }
+    
+    .first {
+        position: relative;
+        animation-name: oneAnimation;
+        animation-duration: 4s;
+        animation-delay: 5s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .second {
+        position: relative;
+        animation-name: twoAnimation;
+        animation-duration: 4s;
+        animation-delay: 7s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .baloon {
+        position: relative;
+        animation-name: baloonAnimation;
+        animation-duration: 12s;
+        animation-delay: 10s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .x {
         text-align: center;
         position: relative;
         animation-name: xAnimation;
-        animation-duration: 5s;
-        animation-delay: 40s;
-
-        animation-iteration-count: 1;
-
-        animation-direction: normal;
-
-        animation-timing-function: linear;
-
-        animation-fill-mode: both;
-    }
-    
-    .batman {
-        width: 100%;
-        animation-name: batmAnimation;
-        animation-duration: 5s;
-        animation-delay: 45s;
+        animation-duration: 3s;
+        animation-delay: 20s;
 
         animation-iteration-count: 1;
 
@@ -425,69 +410,8 @@ li{
         animation-fill-mode: both;
     }
 
-
-/*Position animation */
-@keyframes rondiniAnimation {
-    0% {
-        width: 0%;
-        top: 0px;
-        left: 150px;
-    }
-    
-    50% {
-        width: 20%;
-        top: 60px;
-        left: 400px;
-    }
-    
-    100% {
-        width: 0%;
-        top: 0px;
-        left: 800px;
-    }
-}
-
-@keyframes oneAnimation {
-    0% {
-        width: 0%;
-        top: 50px;
-        left: 150px;
-    }
-
-    50% {
-        width: 5%;
-        top: 400px;
-        left: 300px;
-    }
-    
-    100% {
-        width: 0%;
-        top: 0px;
-        left: 700px;
-    }
-}
-
-@keyframes twoAnimation {
-    0% {
-        width: 0%;
-        top: 50px;
-        left: 150px;
-    }
-
-    50% {
-        width: 5%;
-        top: 400px;
-        left: 300px;
-    }
-    
-    100% {
-        width: 0%;
-        top: 400px;
-        left: 700px;
-    }
-}
-
-@keyframes baloonAnimation {
+    /*Position animation */
+    @keyframes rondiniAnimation {
         0% {
             width: 0%;
             top: 0px;
@@ -495,17 +419,77 @@ li{
         }
 
         50% {
-            width: 50%;
-            top: 100px;
-            left: 100px;
+            width: 40%;
+            top: 50px;
+            left: 200px;
         }
 
         100% {
             width: 0%;
-            top: 100px;
-            left: 450px;
+            top: 50px;
+            left: 900px;
         }
-}
+    }
+
+   @keyframes oneAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 400px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 800px;
+        }
+    }
+
+    @keyframes twoAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 500px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 1000px;
+        }
+    }
+
+    @keyframes baloonAnimation {
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 30%;
+            top: 0px;
+            left: 200px;
+        }
+
+        100% {
+            width: 0%;
+            top: 20px;
+            left: 1000px;
+        }
+    }
     
     @keyframes xAnimation {
         0% {
@@ -514,42 +498,15 @@ li{
         }
 
         50% {
-            top: 20px;
+            top: 100px;
         }
 
         100% {
             font-size: 1.2em;
-            top: 20px;
+            top: 600px;
         }
     }
-    
-     @keyframes batmAnimation {
-        0% {
-            opacity: 0;
-        }
-         
-        25% {
-            opacity: 0.5;
-        }
-         
-        27% {
-            opacity: 0;
-        }
-         
-        29% {
-            opacity: 0.5;
-        }
-         
-        30% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
     }
-
-
 
 @media (max-width: 1024px) {
     
@@ -559,6 +516,189 @@ li{
     
     .bio {
         width: 100%;
+    }
+    
+     /* Animation */
+
+    .line {
+        margin-top: 30px;
+        width: 80%;
+        position: absolute;
+        z-index: 2;
+        margin-left: 10%;
+    }
+
+    .rondini {
+        position: relative;
+        animation-name: rondiniAnimation;
+        animation-duration: 3s;
+        animation-delay: 1s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .first {
+        position: relative;
+        animation-name: oneAnimation;
+        animation-duration: 4s;
+        animation-delay: 5s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .second {
+        position: relative;
+        animation-name: twoAnimation;
+        animation-duration: 4s;
+        animation-delay: 7s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode:both;
+    }
+
+    .baloon {
+        position: relative;
+        animation-name: baloonAnimation;
+        animation-duration: 12s;
+        animation-delay: 10s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+    
+    .x {
+        text-align: center;
+        position: relative;
+        animation-name: xAnimation;
+        animation-duration: 3s;
+        animation-delay: 20s;
+
+        animation-iteration-count: 1;
+
+        animation-direction: normal;
+
+        animation-timing-function: linear;
+
+        animation-fill-mode: both;
+    }
+
+    /*Position animation */
+    @keyframes rondiniAnimation {
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 70%;
+            top: 50px;
+            left: 100px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 400px;
+        }
+    }
+
+   @keyframes oneAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 100px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 500px;
+        }
+    }
+
+    @keyframes twoAnimation {
+        0% {
+            width: 0%;
+            top: 50px;
+            left: 0px;
+        }
+
+        50% {
+            width: 5%;
+            top: 50px;
+            left: 200px;
+        }
+
+        100% {
+            width: 0%;
+            top: 50px;
+            left: 700px;
+        }
+    }
+
+    @keyframes baloonAnimation {
+        0% {
+            width: 0%;
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            width: 50%;
+            top: 50px;
+            left: 100px;
+        }
+
+        100% {
+            width: 0%;
+            top: 70px;
+            left: 550px;
+        }
+    }
+    
+    @keyframes xAnimation {
+        0% {
+            font-size: 0em;
+            top: 20px;
+        }
+
+        50% {
+            top: 100px;
+        }
+
+        100% {
+            font-size: 1.2em;
+            top: 400px;
+        }
     }
     
 }
@@ -738,7 +878,7 @@ li{
         position: relative;
         animation-name: rondiniAnimation;
         animation-duration: 3s;
-        animation-delay: 3s;
+        animation-delay: 1s;
 
         animation-iteration-count: 1;
 
@@ -752,8 +892,8 @@ li{
     .first {
         position: relative;
         animation-name: oneAnimation;
-        animation-duration: 5s;
-        animation-delay: 7s;
+        animation-duration: 4s;
+        animation-delay: 5s;
 
         animation-iteration-count: 1;
 
@@ -767,8 +907,8 @@ li{
     .second {
         position: relative;
         animation-name: twoAnimation;
-        animation-duration: 5s;
-        animation-delay: 10s;
+        animation-duration: 4s;
+        animation-delay: 7s;
 
         animation-iteration-count: 1;
 
@@ -782,8 +922,8 @@ li{
     .baloon {
         position: relative;
         animation-name: baloonAnimation;
-        animation-duration: 30s;
-        animation-delay: 14s;
+        animation-duration: 12s;
+        animation-delay: 10s;
 
         animation-iteration-count: 1;
 
@@ -798,8 +938,8 @@ li{
         text-align: center;
         position: relative;
         animation-name: xAnimation;
-        animation-duration: 5s;
-        animation-delay: 40s;
+        animation-duration: 3s;
+        animation-delay: 20s;
 
         animation-iteration-count: 1;
 
@@ -809,22 +949,6 @@ li{
 
         animation-fill-mode: both;
     }
-    
-    .batman {
-        width: 100%;
-        animation-name: batmAnimation;
-        animation-duration: 5s;
-        animation-delay: 45s;
-
-        animation-iteration-count: 1;
-
-        animation-direction: normal;
-
-        animation-timing-function: linear;
-
-        animation-fill-mode: both;
-    }
-
 
     /*Position animation */
     @keyframes rondiniAnimation {
@@ -914,39 +1038,12 @@ li{
         }
 
         50% {
-            top: 20px;
+            top: 100px;
         }
 
         100% {
             font-size: 1.2em;
-            top: 20px;
+            top: 200px;
         }
     }
-    
-     @keyframes batmAnimation {
-        0% {
-            opacity: 0;
-        }
-         
-        25% {
-            opacity: 0.5;
-        }
-         
-        27% {
-            opacity: 0;
-        }
-         
-        29% {
-            opacity: 0.5;
-        }
-         
-        30% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
 }
