@@ -213,14 +213,6 @@ p {
     background-color: black;
 }
 
-.fixed {
-    width: 500px;
-    line-height: 60px;
-    height: 60px;
-    position: absolute;
-    background-color: white;
-}
-
 .lowerpart {
     margin-top: 60px;
 }
@@ -353,6 +345,20 @@ li{
 
 .navigation .arrow {
   color: darkgray;
+}
+
+.fixed {
+    width: 500px;
+    line-height: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.submenu {
+  width: 500px;
+    line-height: 30px;
+    height: 30px;
+  display: inline-block;
 }
 
 /* Animation */
