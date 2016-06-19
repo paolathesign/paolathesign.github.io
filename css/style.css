@@ -175,7 +175,6 @@ p {
 
 .textcontent {
     width: 500px;
-    margin-top: 20px;
     overflow: auto;
     height: 300px;
 }
@@ -336,7 +335,9 @@ li{
 }
 
 .navigation {
+  text-align: center;
   background-color: black;
+  width: 250px;
 }
 
 .navigation a p {
@@ -345,10 +346,9 @@ li{
 
 .navigation p {
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   color: white;
-  
 }
 
 .navigation .arrow {
@@ -810,7 +810,6 @@ li{
     .textcontent {
         width: 250px;
         height: 250px;
-        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
