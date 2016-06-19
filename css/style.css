@@ -151,13 +151,17 @@ h3 {
 }
 
 .contacts {
-    width: 100%;
+    margin-top: 100px;
+    width: 250px;
     color: black;
-    text-align: center;
+    text-align: right;
+    border-right: 2px solid black;
+    border-style: dotted;
 }
 
 h4 {
-    font-size: 1.5em;
+    margin-right: 20px;
+    font-size: 1.2em;
 }
     
     .folio .menu {
@@ -296,7 +300,7 @@ a .button {
 .skills {
     width: 100%;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
     border-top: 2px solid black;
     border-style:dotted;
     background-color: azure;
@@ -329,6 +333,26 @@ li{
 
 .astroimg {
     width: 100%;
+}
+
+.navigation {
+  background-color: black;
+}
+
+.navigation a p {
+  color: darkgray;
+}
+
+.navigation p {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: white;
+  
+}
+
+.navigation .arrow {
+  color: darkgray;
 }
 
 /* Animation */
@@ -838,7 +862,7 @@ li{
     
     .banner {
         width: 250px;
-        margin-top: -160px;
+        margin-top: -110px;
     }
     
     .showmainpage {
@@ -854,7 +878,6 @@ li{
         height: 250px;
         overflow: auto;
         display: block;
-        margin-top: 30px;
         margin-left: 30px;
         margin-right: 30px;
         text-align: left;
@@ -875,6 +898,11 @@ li{
         width: 100%;
     }
     
+    .navigation {
+      background-color: black;
+      width: 250px;
+    }
+  
     /* Animation */
 
     .line {
