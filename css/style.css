@@ -4,6 +4,7 @@
 
 html {
     font-size: 100%;
+    min-height: 100vh;
 }
 
 body {
@@ -16,6 +17,13 @@ body {
 body div {
     margin: 0;
     padding:0;
+}
+
+body.frontend {
+  background: url(../images/nuvole.png);
+  background-repeat: no-repeat;
+  background-position: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -222,17 +230,6 @@ video {
     border: 1px solid black;
 }
 
-.go {
-    width: 500px;
-    margin-top: 20px;
-    border-bottom: 2px solid #de0403;
-    border-style: dotted;
-}
-
-.go a {
-    color: #de0403; 
-}
-
 .button {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -328,23 +325,23 @@ li{
 
 .navigation {
   text-align: center;
-  background-color: black;
-  width: 250px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .navigation a p {
-  color: darkgray;
+  color: dimgrey;
 }
 
 .navigation p {
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
-  color: white;
+  color: black;
 }
 
 .navigation .arrow {
-  color: darkgray;
+  color: dimgrey;
 }
 
 .fixed {
@@ -355,20 +352,34 @@ li{
 }
 
 .submenu {
-  width: 500px;
+    width: 500px;
     line-height: 30px;
     height: 30px;
-  display: inline-block;
+    display: inline-block;
+}
+
+.sub h3:hover {
+  color: #e00201;
+}
+
+.submenu p {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.da .submenu p {
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 /* Animation */
 
     .line {
         margin-top: 30px;
-        width: 80%;
+        width: 700px;
         position: absolute;
         z-index: 2;
-        margin-left: 10%;
+        margin-left: 500px;
     }
 
     .rondini {
@@ -405,7 +416,7 @@ li{
         position: relative;
         animation-name: twoAnimation;
         animation-duration: 4s;
-        animation-delay: 7s;
+        animation-delay: 6s;
 
         animation-iteration-count: 1;
 
@@ -420,7 +431,7 @@ li{
         position: relative;
         animation-name: baloonAnimation;
         animation-duration: 12s;
-        animation-delay: 10s;
+        animation-delay: 5s;
 
         animation-iteration-count: 1;
 
@@ -432,11 +443,13 @@ li{
     }
     
     .x {
-        text-align: center;
-        position: relative;
+        position: fixed;
+        left: 50%;
+        margin-left: -50px;
+        z-index: 2;
         animation-name: xAnimation;
         animation-duration: 3s;
-        animation-delay: 20s;
+        animation-delay: 10s;
 
         animation-iteration-count: 1;
 
@@ -452,7 +465,7 @@ li{
         0% {
             width: 0%;
             top: 0px;
-            left: 0px;
+            left: 100px;
         }
 
         50% {
@@ -472,13 +485,13 @@ li{
         0% {
             width: 0%;
             top: 50px;
-            left: 0px;
+            left: 600px;
         }
 
         50% {
             width: 5%;
             top: 50px;
-            left: 400px;
+            left: 600px;
         }
 
         100% {
@@ -492,13 +505,13 @@ li{
         0% {
             width: 0%;
             top: 50px;
-            left: 0px;
+            left: 600px;
         }
 
         50% {
             width: 5%;
             top: 50px;
-            left: 500px;
+            left: 600px;
         }
 
         100% {
@@ -531,18 +544,17 @@ li{
     @keyframes xAnimation {
         0% {
             font-size: 0em;
-            top: 20px;
+            bottom: 0px;
         }
 
         50% {
-            top: 100px;
+            bottom: 0px;
         }
 
         100% {
             font-size: 1.2em;
-            top: 600px;
+            bottom: 0px;
         }
-    }
     }
 
 @media (max-width: 1024px) {
@@ -904,8 +916,9 @@ li{
     }
     
     .navigation {
-      background-color: black;
-      width: 250px;
+      background-color: white;
+      border: 1px solid black;
+      width: 100%;
     }
   
     /* Animation */
