@@ -892,12 +892,13 @@ li{
     
     .cv {
         width: 250px;
-        height: 250px;
+        height: 150px;
         overflow: auto;
         display: block;
         margin-left: 30px;
         margin-right: 30px;
         text-align: left;
+        margin-top: 20px;
     }
     
     .bio {
@@ -920,6 +921,7 @@ li{
       border: 1px solid black;
       width: 100%;
     }
+  
   
     /* Animation */
 
