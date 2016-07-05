@@ -762,6 +762,7 @@ li{
         justify-content: center;
         align-items: center;
         align-content: center;
+        padding-bottom: 50px;
     }
     
     .table {
