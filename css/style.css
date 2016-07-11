@@ -139,7 +139,6 @@ a h2:hover {
     height: 300px;
 }
 
-
 .sub {
     display: flex;
     flex-flow: column wrap;
@@ -148,6 +147,11 @@ a h2:hover {
     align-items: center;
 }
 
+.cutted {
+  width: 300px;
+  height: 210px;
+  overflow: hidden;
+}
 
 h3 {
     color: black;
