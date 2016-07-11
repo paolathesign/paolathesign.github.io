@@ -765,7 +765,6 @@ li{
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding-bottom: 50px;
     }
     
     .table {
@@ -816,14 +815,14 @@ li{
   
     .red {
       margin-top: -100px;
-        width: 100px;
-        height: 50px;
-        background-color: white;
-        line-height: 50px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+      width: 100px;
+      height: 50px;
+      background-color: white;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
       z-index: 2;
     }
     
