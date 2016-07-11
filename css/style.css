@@ -23,7 +23,7 @@ body.frontend {
   background: url(../images/nuvole.png);
   background-repeat: no-repeat;
   background-position: center;
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
@@ -752,7 +752,6 @@ li{
     
     .container {
         width: 100%;
-        min-height: 100px;
     }
     
     .menu {
@@ -877,7 +876,7 @@ li{
         width: 250px;
         text-align: center;
     }
-    
+  
     .banner {
         width: 170px;
         margin-top: -100px;
@@ -893,8 +892,7 @@ li{
     
     .cv {
         width: 250px;
-        height: 150px;
-        overflow: auto;
+        height: 850px;
         display: block;
         margin-left: 30px;
         margin-right: 30px;
@@ -922,7 +920,6 @@ li{
       border: 1px solid black;
       width: 100%;
     }
-  
   
     /* Animation */
 
