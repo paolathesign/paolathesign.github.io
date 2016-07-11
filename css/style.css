@@ -20,10 +20,10 @@ body div {
 }
 
 body.frontend {
-  background: url(../images/nuvole.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
+    background: url(../images/nuvole.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -42,7 +42,7 @@ body.frontend {
 }
 
 .logoheader a {
-     display: flex;
+    display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
@@ -148,9 +148,9 @@ a h2:hover {
 }
 
 .cutted {
-  width: 300px;
-  height: 210px;
-  overflow: hidden;
+    width: 300px;
+    height: 210px;
+    overflow: hidden;
 }
 
 h3 {
@@ -176,9 +176,9 @@ h4 {
     font-size: 1.2em;
 }
     
-    .folio .menu {
-        display: none;
-    }
+.folio .menu {
+    display: none;
+}
 
 p {
     font-size: 1.2em;
@@ -328,24 +328,24 @@ li{
 }
 
 .navigation {
-  text-align: center;
-  background-color: white;
-  border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .navigation a p {
-  color: dimgrey;
+    color: dimgrey;
 }
 
 .navigation p {
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: black;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
 }
 
 .navigation .arrow {
-  color: dimgrey;
+    color: dimgrey;
 }
 
 .fixed {
@@ -363,17 +363,17 @@ li{
 }
 
 .sub h3:hover {
-  color: #e00201;
+    color: #e00201;
 }
 
 .submenu p {
-  margin-right: 3px;
-  margin-left: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .da .submenu p {
-  margin-right: 2px;
-  margin-left: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 /* Animation */
@@ -853,7 +853,6 @@ li{
         margin-right: 20px;
     }
     
-
     .onright {
         margin-left: 110px;
     }
@@ -947,9 +946,9 @@ li{
       z-index: 2;
     }
   
-  .subjects {
-    margin-bottom: 100px;
-  }
+    .subjects {
+      margin-bottom: 100px;
+    }
   
     /* Animation */
 
