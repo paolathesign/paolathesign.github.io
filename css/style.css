@@ -153,6 +153,61 @@ a h2:hover {
     overflow: hidden;
 }
 
+.darte {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/gift.jpg);
+}
+
+.darte:hover {
+    background: url(../images/animationgift.gif);
+    transition: 0.2s ease-in;
+}
+
+.uxex {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/driver.jpg);
+}
+
+.uxex:hover {
+    background: url(../images/driveanimation.gif);
+    transition: 0.2s ease-in;
+}
+
+.serviced {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/servicedesign.jpg);
+}
+
+.serviced:hover {
+    background: url(../images/servicedesign.gif);
+    transition: 0.2s ease-in;
+}
+
+.selfieg {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/selfie.jpg)
+}
+
+.selfieg:hover {
+    background: url(../images/selfieanimation.gif);
+    transition: 0.2s ease-in;
+}
+
+.skelly {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/skelet.jpg)
+}
+
+.skelly:hover {
+    background: url(../images/skelanimation.gif);
+    transition: 0.2s ease-in;
+}
+
 h3 {
     color: black;
     font-size: 1.5em;
@@ -948,6 +1003,26 @@ li{
   
     .subjects {
       margin-bottom: 100px;
+    }
+    
+    .darte {
+      background: url(../images/animationgift.gif);
+    }
+  
+    .uxex {
+      background: url(../images/driveanimation.gif);
+    }
+    
+    .serviced {
+      background-image: url(../images/servicedesign.gif);
+    }
+  
+    .selfieg {
+      background-image: url(../images/selfieanimation.gif);
+    }
+
+    .skelly {
+      background: url(../images/skelanimation.gif);
     }
   
     /* Animation */
