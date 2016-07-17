@@ -300,6 +300,11 @@ a .button {
     color: #de0403;
 }
 
+.button:hover {
+    background-color: #de0403;
+      color: white;
+}
+
 .banner {
     width: 500px;
 }
