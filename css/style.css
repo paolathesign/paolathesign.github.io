@@ -374,12 +374,16 @@ li{
 
 .navigation {
     text-align: center;
-    background-color: white;
-    border: 1px solid black;
+  background-image: url(../images/barra4.jpg);
 }
 
 .navigation a p {
-    color: dimgrey;
+    color: dimgray;
+}
+
+.navigation a p:hover {
+    color: white;
+    background-color: gold;
 }
 
 .navigation p {
@@ -398,6 +402,7 @@ li{
     line-height: 30px;
     height: 30px;
     position: absolute;
+    background-image: url(../images/barra4.jpg);
 }
 
 .submenu {
@@ -408,7 +413,8 @@ li{
 }
 
 .sub h3:hover {
-    color: #e00201;
+    color: white;
+    background-color: black;
 }
 
 .submenu p {
@@ -984,7 +990,6 @@ li{
   
     .navigation {
       background-color: white;
-      border: 1px solid black;
       width: 100%;
     }
   
