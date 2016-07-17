@@ -388,7 +388,7 @@ li{
 
 .navigation a p:hover {
     color: white;
-    background-color: gold;
+    background-color: goldenrod;
 }
 
 .navigation p {
@@ -708,7 +708,27 @@ li{
 
         animation-fill-mode: both;
     }
+    
+      .darte {
+      background: url(../images/animationgift.gif);
+    }
+  
+    .uxex {
+      background: url(../images/driveanimation.gif);
+    }
+    
+    .serviced {
+      background-image: url(../images/servicedesign.gif);
+    }
+  
+    .selfieg {
+      background-image: url(../images/selfieanimation.gif);
+    }
 
+    .skelly {
+      background: url(../images/skelanimation.gif);
+    }
+  
     /*Position animation */
     @keyframes rondiniAnimation {
         0% {
