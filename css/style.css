@@ -242,8 +242,6 @@ p {
 
 .textcontent {
     width: 500px;
-    overflow: auto;
-    height: 300px;
 }
 
 .onright {
@@ -304,7 +302,6 @@ a .button {
 
 .banner {
     width: 500px;
-    margin-top: -150px;
 }
 
 .mainpage {
@@ -313,26 +310,18 @@ a .button {
 }
 
 .showmainpage {
-    width: 700px;
+    width: 500px;
     margin-top: 20px;
-    overflow: auto;
-    height: 500px;
 }
 
 .astrocontent {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    width: 700px;
+    width: 500px;
     margin-top: 20px;
-    overflow: auto;
-    height: 500px;
 }
 
 .astro {
     margin: 0;
 }
-
 
 .textversion {
     background-color: black;
@@ -363,7 +352,7 @@ a .button {
     background-color: black;
     margin-top: 30px;
     color: white;
-    width: 100%;
+    width: 500px;
     text-align: center;
 }
 
@@ -379,7 +368,8 @@ li{
 }
 
 .astroimg {
-    width: 100%;
+    width: 100px;
+    margin: 20px 0 20px 0;
 }
 
 .navigation {
@@ -903,7 +893,6 @@ li{
     
     .textcontent {
         width: 250px;
-        height: 250px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -953,15 +942,12 @@ li{
     }
   
     .banner {
-        width: 170px;
-        margin-top: -100px;
+        width: 250px;
     }
     
     .showmainpage {
         width: 250px;
-        height: 160px;
         margin-top: 20px;
-        overflow: auto;
         display: inline-block;
     }
     
@@ -982,14 +968,20 @@ li{
     .astrocontent {
         width: 250px;
         margin-top: 20px;
-        overflow: auto;
-        height: 160px;
     }
     
     .astroimg {
         width: 100%;
     }
     
+    .servicetext {
+      background-color: black;
+      margin-top: 30px;
+      color: white;
+      width: 250px;
+      text-align: center;
+    }
+  
     .navigation {
       background-color: white;
       border: 1px solid black;
