@@ -31,7 +31,7 @@ body.frontend {
 }
 
 .logoheader {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 100%;
     background-color: white;
@@ -63,6 +63,7 @@ body.frontend {
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .gifimage {
@@ -1069,6 +1070,10 @@ li{
 
     .skelly {
       background: url(../images/skelanimation.gif);
+    }
+    
+    .content {
+      margin-top: 50px;
     }
   
     /* Animation */
