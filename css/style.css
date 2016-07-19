@@ -48,10 +48,6 @@ body.frontend {
     align-items: center;
 }
 
-.logoheader:hover {
-    transform: scale(2);
-}
-
 .menu {
     width: 500px;
     display: flex;
