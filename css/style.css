@@ -763,6 +763,10 @@ li{
     .skelly {
       background: url(../images/skelanimation.gif);
     }
+    
+    .e-comm {
+      background: url(../images/buy-now.gif);
+    }
   
     /*Position animation */
     @keyframes rondiniAnimation {
@@ -1081,6 +1085,10 @@ li{
 
     .skelly {
       background: url(../images/skelanimation.gif);
+    }
+  
+    .e-comm {
+      background: url(../images/buy-now.gif)
     }
     
     .content {
