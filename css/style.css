@@ -442,6 +442,17 @@ li{
     margin-left: 2px;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.astrocontent a {
+    color: black;
+    margin: 50px;
+    text-decoration: underline
+}
+
 /* Animation */
 
     .line {
