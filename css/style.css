@@ -779,6 +779,17 @@ li{
       background: url(../images/buy-now.gif);
     }
   
+    .icons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .astrocontent a {
+      color: black;
+      margin: 50px;
+      text-decoration: underline
+    }
+  
     /*Position animation */
     @keyframes rondiniAnimation {
         0% {
@@ -1104,6 +1115,17 @@ li{
     
     .content {
       margin-top: 50px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .astrocontent a {
+      color: black;
+      margin: 50px;
+      text-decoration: underline
     }
   
     /* Animation */
