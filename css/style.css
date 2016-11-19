@@ -211,13 +211,24 @@ a h2:hover {
 }
 
 .e-comm {
-  width: 300px;
-  height: 300px;
-  background-image: url(../images/e-comm.jpg);
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/e-comm.jpg);
 }
 
 .e-comm:hover {
     background: url(../images/buy-now.gif);
+    transition: 0.2s ease-in;
+}
+
+.typo {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/thend.jpg);
+}
+
+.typo:hover {
+    background: url(../images/typowords.gif);
     transition: 0.2s ease-in;
 }
 
@@ -452,6 +463,10 @@ li{
     color: black;
     margin: 50px;
     text-decoration: underline
+}
+
+.theend {
+    width: 50%;
 }
 
 /* Animation */
@@ -778,6 +793,10 @@ li{
     
     .e-comm {
       background: url(../images/buy-now.gif);
+    }
+    
+    .typo {
+      background: url(../images/typowords.gif);
     }
   
     .icons {
@@ -1111,9 +1130,12 @@ li{
     }
   
     .e-comm {
-      background: url(../images/buy-now.gif)
+      background: url(../images/buy-now.gif);
     }
     
+    .typo {
+      background: url(../images/typowords.gif);
+    }
     .content {
       margin-top: 50px;
     }
@@ -1127,6 +1149,10 @@ li{
       color: black;
       margin: 40px;
       text-decoration: underline
+    }
+  
+    .theend {
+      width: 100%;
     }
   
     /* Animation */
