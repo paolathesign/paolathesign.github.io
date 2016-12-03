@@ -469,6 +469,12 @@ li{
     width: 50%;
 }
 
+.adv {
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 /* Animation */
 
     .line {
@@ -1154,7 +1160,10 @@ li{
     .theend {
       width: 100%;
     }
-  
+    
+    .adv {
+    width: 250px;
+    }
     /* Animation */
 
     .line {
