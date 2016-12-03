@@ -221,6 +221,17 @@ a h2:hover {
     transition: 0.2s ease-in;
 }
 
+.integr {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/integr.jpg);
+}
+
+.integr:hover {
+    background: url(../images/integr.gif);
+    transition: 0.2s ease-in;
+}
+
 .typo {
     width: 300px;
     height: 300px;
@@ -318,6 +329,7 @@ video {
     border-style:dotted; 
     font-size: 1.2em;
     padding: 10px;
+    text-decoration: blink;
 }
 
 a .button {
@@ -801,6 +813,10 @@ li{
       background: url(../images/buy-now.gif);
     }
     
+    .integr {
+      background: url(../images/integr.gif);
+    }
+  
     .typo {
       background: url(../images/typowords.gif);
     }
