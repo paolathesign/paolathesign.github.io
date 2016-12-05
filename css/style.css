@@ -248,6 +248,11 @@ h3 {
     font-size: 1.5em;
 }
 
+h6 {
+  color: black;
+  font-weight: 100
+}
+
 .bio {
     width: 100%;
 }
